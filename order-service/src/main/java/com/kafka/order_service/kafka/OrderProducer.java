@@ -40,6 +40,11 @@ public class OrderProducer {
                 .setHeader(KafkaHeaders.TOPIC, topic.name())
                 .build();
 
+
+
+
+
+
        // kafkaTemplate.send(topic.name(), event);
         kafkaTemplate.send(message);
 
